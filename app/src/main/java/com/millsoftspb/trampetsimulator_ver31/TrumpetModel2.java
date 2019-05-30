@@ -3,7 +3,9 @@ package com.millsoftspb.trampetsimulator_ver31;
 
 import android.content.Context;
 import android.media.AudioAttributes;
+import android.media.MediaPlayer;
 import android.media.SoundPool;
+import android.util.Log;
 
 public class TrumpetModel2 {
     private final int noteA = 1, noteB = 2, noteC = 3, noteD = 4, noteE = 5, noteF = 6, noteG = 7;
@@ -33,6 +35,8 @@ public class TrumpetModel2 {
 
         //temp volume set
         volume = 1;
+
+
     }
 
     public void play(int note) {
